@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <ItemGroup Condition="Exists('g4di.json')">
+        <AdditionalFiles Include="g4di.json" />
+    </ItemGroup>
+</Project>
