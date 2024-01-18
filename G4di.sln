@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D6122400-607A-40CA-AAEB-B19243A06A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G4di.Test_8", "Tests\G4di.Test_8\G4di.Test_8.csproj", "{92F4E733-3286-440A-BE18-305DA300B48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G4di.Test_8", "Tests\G4di.Test_8\G4di.Test_8.csproj", "{92F4E733-3286-440A-BE18-305DA300B48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G4di.TestBase", "Tests\G4di.TestBase\G4di.TestBase.csproj", "{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,12 +36,17 @@ Global
 		{92F4E733-3286-440A-BE18-305DA300B48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F4E733-3286-440A-BE18-305DA300B48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F4E733-3286-440A-BE18-305DA300B48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92F4E733-3286-440A-BE18-305DA300B48D} = {D6122400-607A-40CA-AAEB-B19243A06A5A}
+		{4EB8BF19-A4A7-47AD-8128-A0A6A8C00E36} = {D6122400-607A-40CA-AAEB-B19243A06A5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8DB4F99-9241-44BC-8F49-7CE9136CBF35}
