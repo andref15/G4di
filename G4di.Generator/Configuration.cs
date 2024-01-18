@@ -35,6 +35,6 @@ internal partial class Configuration
 
     internal class JsonConfigClass
     {
-
+        public Dictionary<string, RegexInjectionDefinitoion>? InjectionDefinitoions { get; set; }
     }
 }

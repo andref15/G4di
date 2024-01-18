@@ -5,7 +5,9 @@ namespace G4di.Generator.CSharp;
 internal class SourceBuilder(LanguageVersion languageVersion)
 {
     private readonly StringBuilder _stringBuilder = new();
+#pragma warning disable IDE0052 // Remove unread private members
     private readonly LanguageVersion _languageVersion = languageVersion;
+#pragma warning restore IDE0052 // Remove unread private members
     private int _indentCounter = 0;
 
     public SourceBuilder AppendLine()
